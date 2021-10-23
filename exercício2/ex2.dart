@@ -4,7 +4,7 @@ main(List<String> args){
 	print("digite um número inteiro:");
 	final pascalNum = int.parse(stdin.readLineSync()!);
 	print("Digite 1 para crescente ou 0 para decrescente:");
-	final decreasing = stdin.readLineSync()!="1" ? true : false;
+	final decreasing = stdin.readLineSync()!="1";
 	drawTriangle(pascalNum, decreasing);
 }
 
