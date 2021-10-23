@@ -6,6 +6,4 @@ main(List<String> args){
 	print(bestGrades);
 }
 
-bool isHightGrade(grade){
-	return grade>8.5;
-}
+bool isHightGrade(grade) => grade>8.5;
